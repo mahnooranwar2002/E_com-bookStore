@@ -1,0 +1,14 @@
+﻿@{
+	Layout = null;
+}
+@if (TempData["abc"]!=null){
+	<h1> @TempData["abc"] </h1>
+}
+
+<form method="post" asp-action="acb" asp-controller="Home">
+	<input type="text" name="Name" value="" />
+	<br />
+	<br />
+	<input type="text" name="Email" value="" />
+	<button type="submit">save</button>
+</form>

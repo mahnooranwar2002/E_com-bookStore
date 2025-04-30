@@ -1,0 +1,43 @@
+﻿@if (TempData["msg"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["msg"]
+    </div>
+}
+<section class="contact_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="heading_container ">
+                    <h2 class="">
+                        Contact Us
+                    </h2>
+                </div>
+                <form method="post">
+                    <div>
+                        <input type="text" required placeholder="Name"  name="name"/>
+                    </div>
+                    <div>
+                        <input type="email" required placeholder="Email" name="email" />
+                    </div>
+                    <div>
+                        <input type="text" required placeholder="Pone Number" />
+                    </div>
+                    <div>
+                        <input type="text" class="message-box" name="msg" placeholder="Message" />
+                    </div>
+                    <div class="btn-box">
+                        <button type="submit">
+                            SEND
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="img-box">
+                    <img src="~/images/contact-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

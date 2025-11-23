@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QcsLun2jDk8=",
+  "dgSpecHash": "6xsSdTAnqhk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mahnoor Anwar\\Desktop\\mahnoor projects\\Apteach\\Apteach\\HDSE 1\\Dot Net\\Bookstore\\Bookstore\\Bookstore.csproj",
+  "projectFilePath": "D:\\mahnoor projects\\Apteach\\Apteach\\HDSE 1\\Dot Net\\Bookstore\\Bookstore\\Bookstore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mahnoor Anwar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Mahnoor Anwar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

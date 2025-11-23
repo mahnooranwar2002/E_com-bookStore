@@ -187,7 +187,7 @@ namespace Bookstore.Controllers
            var emailExisting=_con.tbl_users.FirstOrDefault(e=>e.Email==myuser.Email);
             if (emailExisting != null)
             {
-                TempData["MSG"] = "This email is already registered!";
+                TempData["msg1"] = "This email is already registered!";
                 return RedirectToAction("register_form");
             }
             else
@@ -322,6 +322,7 @@ namespace Bookstore.Controllers
             return RedirectToAction("index");
         }
         public IActionResult profile(int id)
+        
         {
             var login = HttpContext.Session.GetString("user_session");
             if (login != null)
@@ -333,20 +334,39 @@ namespace Bookstore.Controllers
                     admin_profiles = data_admin,
                     admin_data = admin_details
                 };
-                TempData["mgs"] = "admin";
+                TempData["registered"] = "login";
                 return View(mydata);
-
-
             }
             else
             {
                 return RedirectToAction("login_form", "home");
-
             }
-
-
-
+          
         }
+        //var login = HttpContext.Session.GetString("user_session");
+        //    if (login != null)
+        //    {
+        //        var data_admin = _con.tbl_users.Find(id);
+        //        var admin_details = _con.tbl_users.Where(e => e.Id == int.Parse(login)).ToList();
+        //        mainmodel mydata = new mainmodel()
+        //        {
+        //            admin_profiles = data_admin,
+        //            admin_data = admin_details
+        //        };
+        //        TempData["mgs"] = "admin";
+        //        return View(mydata);
+
+
+        //    }
+        //    else
+        //    {
+        //        return RedirectToAction("login_form", "home");
+
+        //    }
+
+
+
+        //}
         [HttpPost]
         public IActionResult profile(User user)
         {
@@ -655,8 +675,8 @@ namespace Bookstore.Controllers
             cus_order.product_count = count.ToString();
             _con.tbl_order.Add(cus_order);
             _con.SaveChanges();
-            TempData["msg"] = "your delivery is delivered soon in" +" "+ " " + cus_order.day_counts + " "+ " " + "days";
-            return RedirectToAction("paymentGetway");
+           
+            return RedirectToAction("index");
 
         }
         public IActionResult order_views(int id)

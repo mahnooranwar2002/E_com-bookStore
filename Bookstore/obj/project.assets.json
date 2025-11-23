@@ -8028,11 +8028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mahnoor Anwar\\Desktop\\mahnoor projects\\Apteach\\Apteach\\HDSE 1\\Dot Net\\Bookstore\\Bookstore\\Bookstore.csproj",
+      "projectUniqueName": "D:\\mahnoor projects\\Apteach\\Apteach\\HDSE 1\\Dot Net\\Bookstore\\Bookstore\\Bookstore.csproj",
       "projectName": "Bookstore",
-      "projectPath": "C:\\Users\\Mahnoor Anwar\\Desktop\\mahnoor projects\\Apteach\\Apteach\\HDSE 1\\Dot Net\\Bookstore\\Bookstore\\Bookstore.csproj",
+      "projectPath": "D:\\mahnoor projects\\Apteach\\Apteach\\HDSE 1\\Dot Net\\Bookstore\\Bookstore\\Bookstore.csproj",
       "packagesPath": "C:\\Users\\Mahnoor Anwar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mahnoor Anwar\\Desktop\\mahnoor projects\\Apteach\\Apteach\\HDSE 1\\Dot Net\\Bookstore\\Bookstore\\obj\\",
+      "outputPath": "D:\\mahnoor projects\\Apteach\\Apteach\\HDSE 1\\Dot Net\\Bookstore\\Bookstore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
